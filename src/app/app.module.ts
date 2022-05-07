@@ -9,7 +9,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgHttpLoaderModule } from 'ng-http-loader';
+// import { NgHttpLoaderModule } from 'ng-http-loader';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpErrorInterceptor } from './interceptors/HttpErrorInterceptor';
 import { UrlLabelPipe } from './pipes/url_label/url-label.pipe';
@@ -27,7 +27,7 @@ import { NotNullPipe } from './pipes/not_null/not-null.pipe';
   ],
   imports: [
     HttpClientModule,
-    NgHttpLoaderModule.forRoot(),
+    // NgHttpLoaderModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
